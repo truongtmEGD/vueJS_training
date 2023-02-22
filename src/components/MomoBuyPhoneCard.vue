@@ -185,7 +185,7 @@
                     </div>
                   </div>
                 </div>
-                <Pagination currentPageP="6" totalPageP="6" totalRecordP="56" @clicked="onClickPaging"/>
+                <Pagination currentPageP="8" totalPageP="10" totalRecordP="100" @clicked="onClickPaging"/>
                 <div v-if="isLoading===true">
                   <Loading />
                 </div>
