@@ -1,0 +1,294 @@
+.content-recharge {
+    margin: -20px -20px 0 -20px;
+}
+
+.recharge-header {
+    height: 60px;
+    background-color: $white-color;
+    padding-top: 13px;
+    margin-bottom: 10px;
+}
+
+.payment-header {
+    padding: 15px 0 0 30px !important;
+}
+
+.arr-gr {
+    width: 30px;
+    height: 30px;
+}
+
+.arr-gr img {
+    width: 100%;
+    height: 100%;
+}
+
+.header-left span {
+    text-transform: uppercase;
+    margin: 10px 0 0 10px;
+}
+
+.header-left p {
+    margin: 5px 0 0 10px;
+    font-size: 17px;
+}
+
+.header-left span.vnd {
+    font-size: 17px;
+    font-weight: bold;
+    margin: 10px 0 0px 5px;
+    color: $vnd-color;
+}
+
+.grItem1 {
+    margin-top: 40px;
+}
+
+.label-header {
+    margin: 0 0 20px 0;
+    font-size: 18px;
+}
+
+.label-header-medium {
+    margin: 0 0 20px 20px;
+    font-size: 16px;
+}
+
+.invoice-info {
+    background: $background-color;
+    padding: 20px 0 0 0;
+}
+
+.header-right {
+    text-align: right;
+}
+
+.transaction-info-detail {
+    margin-top: 40px;
+}
+
+.gr-button-tran {
+    margin-right: 40px !important;
+}
+
+.arr-gr {
+    float: right;
+    margin: 10px 0 0 20px;
+    opacity: 0.5;
+}
+
+.row-header {
+    background: $header-bg-color !important;
+}
+
+.money-td {
+    padding-left: 10px !important;
+}
+
+.td-access {
+    padding-right: 30px !important;
+    padding-top: 10px !important;
+}
+
+.vendor {
+    padding-left: 25px !important;
+}
+
+.align-td {
+    padding-left: 10px !important;
+}
+
+.header-invoice {
+    text-transform: none;
+}
+
+.header-invoice-modal {
+    text-transform: uppercase;
+}
+
+.table tbody tr {
+    height: 50px !important;
+}
+
+.header-right span {
+    margin: 10px 20px 0 0;
+    opacity: 1;
+    font-size: 15px;
+}
+
+.recharge-content {
+    padding: 15px 30px 0 30px;
+}
+
+.invoice-info1 {
+    margin-bottom: 10px;
+}
+
+.grButton {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gr-button {}
+
+.form-group {
+    margin-top: 20px;
+}
+
+.gr-transaction {
+    padding: 20px 0 20px;
+    background-color: $background-color;
+    margin: 0 0px 0 0px;
+}
+
+.gr-item-ma {
+    margin-top: -25px;
+}
+
+select {
+    width: 100%;
+}
+
+input[type=text] {
+    width: 100%;
+}
+
+.gr-time {
+    margin-top: -5px;
+}
+
+input[type="text"] {
+    background-color: $white-color;
+}
+
+.arrow-date {
+    margin: 12px 0px 0 10px;
+}
+
+.gr-download {
+    margin: 20px 0 20px 0;
+}
+
+.gr-download-btn {
+    text-align: right;
+}
+
+.download-button {
+    margin-right: -12px !important;
+}
+
+.date-input {
+    width: 120%;
+}
+
+// For table
+.monney {
+    color: $status-table-color;
+}
+
+.sub-monney {
+    color: $vnd-color;
+}
+
+// End table
+.data-input {
+    width: 120%;
+}
+
+td.fee {
+    text-align: right;
+    padding: 15px 30px 0 0 !important;
+}
+
+span.status {
+    background-color: $status-table-color !important;
+    color: white;
+    padding: 0px 5px 2px 5px;
+    font-size: 10px;
+    font-weight: normal;
+    border-radius: 5px;
+}
+
+.process {
+    text-align: center !important;
+}
+
+.noNum {
+    text-align: center !important;
+}
+
+.detail-button-tab {
+    margin-right: 5px !important;
+}
+
+.gr-button-cancel {
+    text-align: center !important;
+}
+
+.gr2 {
+    margin-top: -10px !important;
+}
+
+// For icon zalo chat
+.chat-group-modal {
+    position: absolute !important;
+    top: 10px !important;
+    left: 93% !important;
+    z-index: 100 !important;
+}
+
+.chat-group {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.row-list-tran {
+    background-color: $border-table-color;
+    height: 50px;
+    padding: 10px 0 10px 10px !important;
+}
+
+.row-list-tran b {
+    text-transform: uppercase;
+    margin: 20px 0 0 0;
+}
+
+.arr-gr-bellow {
+    float: right;
+    margin: 0px 0 0 20px;
+    opacity: 0.5;
+    width: 30px;
+    height: 30px;
+}
+
+.chat-group li {
+    padding-bottom: 5px;
+}
+
+.chat-group .chat-item {
+    display: block;
+    width: 50px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.chat-group .chat-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.left-align {
+    text-align: left;
+}

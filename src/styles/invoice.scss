@@ -1,0 +1,139 @@
+.recharge-header {
+    height: 80px;
+    background-color: $background-color;
+    padding-top: 13px;
+}
+
+.header-left span {
+    text-transform: uppercase;
+    margin: 10px 0 0 10px;
+}
+
+.header-left p {
+    margin: 5px 0 0 10px;
+    font-size: 17px;
+}
+
+.header-left span.vnd {
+    font-size: 17px;
+    font-weight: bold;
+    margin: 10px 0 0px 5px;
+    color: $vnd-color;
+}
+
+.grItem1 {
+    margin-top: 40px;
+}
+
+.label-header {
+    margin: 0 0 20px 0;
+    font-size: 18px;
+}
+
+.label-header-medium {
+    margin: 0 0 20px 20px;
+    font-size: 16px;
+}
+
+.invoice-info {
+    background: $background-color;
+    padding: 20px 0 0 0;
+}
+
+.recharge-button {
+    margin-right: 10px;
+    opacity: 0.7;
+}
+
+.search-button {
+    opacity: 0.7;
+}
+
+.print-button {
+    background: $print-color !important;
+}
+
+.search-button-top {
+    opacity: 1;
+    padding-left: 17px;
+    width: 50px;
+    height: 40px;
+}
+
+.header-right {
+    text-align: right;
+    margin: 10px 0 0 0;
+}
+
+.header-right span {
+    margin: 10px 20px 0 0;
+    opacity: 1;
+    font-size: 15px;
+}
+
+.recharge-content {
+    padding-bottom: 10px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    padding: 10px 0 0 0;
+    border-bottom: 1px solid $menu-background;
+}
+
+.menu ul li p {
+    font-size: 12px;
+    font-style: normal;
+}
+
+.menu ul li p>label {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.menu-right ul {
+    padding-left: 10px;
+}
+
+.menu-right ul li {
+    margin-right: 20px;
+}
+
+.invoice-info1 {
+    margin-bottom: 10px;
+}
+
+table tr td {
+    font-size: 15px;
+    font-weight: normal;
+    color: $text-td-table;
+}
+
+.numPage {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.grButton {
+    text-align: center;
+    margin-top: 20px;
+    border-top: none;
+    padding-top: 0;
+}
+
+.gr-button {
+    background: $background-color;
+    height: 80px;
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+table.table-striped>tbody>tr>td {
+    padding: 0.5rem 0.5rem !important;
+}

@@ -1,0 +1,121 @@
+button {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+label {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+select {
+    cursor: pointer;
+}
+
+.content-recharge {
+    background-color: white;
+}
+
+.search-button,
+.search-button:hover,
+.search-button:active,
+.search-button:focus {
+    background-color: $searchButton-color !important;
+}
+
+.search-button span {
+    // margin: 0 0 0 5px;
+}
+
+.search-button-check,
+.search-button-check:hover,
+.search-button-check:active,
+.search-button-check:focus {
+    background-color: $green-button !important;
+}
+
+.search-button-check span {
+    margin: 0 0 0 5px !important;
+}
+
+.recharge-button,
+.recharge-button:hover,
+.recharge-button:active,
+.recharge-button:focus {
+    background-color: $green-button !important;
+}
+
+.recharge-button span {
+    margin: 0 0 0 5px;
+}
+
+input[type='checkbox'] {
+    background-color: $searchButton-color;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.label-header {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.download-button {
+    background-color: $background-color !important;
+    color: $download-button-bg !important;
+}
+
+.download-button span {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 0 0 10px;
+}
+
+.header-invoice {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+table tr td {
+    font-size: 15px;
+    font-weight: normal;
+    color: $text-td-table;
+    padding: 15px 0 0 0 !important;
+}
+
+.detail-button {
+    background: $background-color !important;
+    border: 1px solid $border-table-color !important;
+    color: $detail-bg-color !important;
+    border: 1px solid $border-table-color !important;
+}
+
+.detail-button span {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    margin: 0px 0 0px 5px !important;
+}
+
+.cancel-button {
+    background: $background-color !important;
+    border: 1px solid $border-table-color !important;
+    color: $vnd-color !important;
+    border: 1px solid $border-table-color !important;
+}
+
+.cancel-button span {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    margin: 0px 0 0px 5px !important;
+}
+
+table.table-striped>thead>tr>th {
+    border-bottom: 1px solid $border-table-color !important;
+}
+
+.body-css {
+    overflow: hidden !important;
+}
