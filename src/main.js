@@ -15,6 +15,7 @@ import WithDrawMoney from "./components/WithDrawMoney.vue";
 import PayooTransaction from "./components/PayooTransaction.vue";
 import Counter from "./components/Counter.vue";
 import store from "./store/store";
+import Select2 from 'v-select2-component';
 
 
 // Define router:
@@ -56,6 +57,7 @@ Vue.use(VueRouter);
 Vue.use(BootstrapVue);
 Vue.use(IconsPlugin);
 Vue.config.productionTip = false;
+Vue.component('select2', Select2);
 
 new Vue({
     el: "#app",
