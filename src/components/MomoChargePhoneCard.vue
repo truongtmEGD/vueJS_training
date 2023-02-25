@@ -206,6 +206,9 @@ export default {
       myOptions: [{ id: "1", text: "abc" }, { id: "2", text: "def" }, { id: "3", text: "def1" }, { id: "4", text: "def2" }]
     };
   },
+  mounted() {
+    console.log("khoi tao page");
+  },
   methods: {
     onClickPaging(value) {
       this.isLoading = true;
