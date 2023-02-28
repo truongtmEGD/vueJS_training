@@ -13,12 +13,12 @@
       </div>
     </div>
     <div class="recharge-content">
-      <div class="row">
-        <div class="col-lg-2 col-md-2"></div>
-        <div class="col-lg-8 col-md-8">
+      <div class="row m-0">
+        <div class="col-lg-2 col-md-2 p-0"></div>
+        <div class="col-lg-8 col-md-8 p-0">
           <form class="content">
-            <div class="row">
-              <div class="col-lg-3 col-md-3">
+            <div class="row m-0">
+              <div class="col-lg-3 col-md-3 p-0">
                 <div class="form-group grItem">
                   <label for="lblChoiceService">Chọn nhà mạng:</label>
                   <select class="form-select" aria-label="Default select example">
@@ -29,13 +29,13 @@
                   </select>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-4">
+              <div class="col-lg-4 col-md-4 p-0">
                 <div class="form-group grItem">
                   <label for="lblDivision">Số thuê bao:</label>
                   <input type="text" class="form-control" id="txtNumberPhone" placeholder="Nhập số điện thoại..." />
                 </div>
               </div>
-              <div class="col-lg-5 col-md-5">
+              <div class="col-lg-5 col-md-5 p-0">
                 <div class="form-group grItem">
                   <label for="lblCustomerId">Mệnh giá:</label>
                   <div class="row">
@@ -53,7 +53,7 @@
                         <select2 v-model="valMoney" :options="myOptions"
                           :settings="{ settingOption: value, settingOption: value }" @change="myChangeEvent($event)"
                           @select="mySelectEvent($event)" />
-                        <h4>Value: {{ valMoney }}</h4>
+                        <!-- <h4>Value: {{ valMoney }}</h4> -->
                       </div>
 
 
