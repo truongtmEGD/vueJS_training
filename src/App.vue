@@ -13,6 +13,7 @@
             <b-nav-item href="#"><a @click="redirectToPage('withDrawMoney')">withDrawMoney</a></b-nav-item>
             <b-nav-item href="#"><a @click="redirectToPage('payooTransaction')">payooTransaction</a></b-nav-item>
             <b-nav-item href="#"><a @click="redirectToPage('counter')">counter</a></b-nav-item>
+            <b-nav-item href="#"><a @click="redirectToPage('testAPI')">Test API</a></b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>
@@ -47,6 +48,9 @@ export default {
           break;
         case "payooTransaction":
           this.$router.push("/payooTransaction", () => { });
+          break;
+          case "testAPI":
+          this.$router.push("/testAPI", () => { });
           break;
         case "counter":
           this.$router.push("/counter", () => { });

@@ -13,6 +13,7 @@ import Recharge from "./components/Recharge.vue";
 import ReportTransaction from "./components/ReportTransaction.vue";
 import WithDrawMoney from "./components/WithDrawMoney.vue";
 import PayooTransaction from "./components/PayooTransaction.vue";
+import TestAPI from "./components/TestAPI.vue";
 import Counter from "./components/Counter.vue";
 import store from "./store/store";
 import Select2 from 'v-select2-component';
@@ -46,6 +47,10 @@ const routes = [{
     {
         path: "/payooTransaction",
         component: PayooTransaction
+    },
+    {
+        path: "/testAPI",
+        component: TestAPI
     },
     {
         path: "/counter",
